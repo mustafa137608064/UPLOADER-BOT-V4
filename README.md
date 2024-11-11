@@ -1,5 +1,19 @@
 ## URL Uᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ V4 🚀
-
+-edit config.py
+-add 8 variuables on Koyeb
+bot token
+api id
+api hash
+update channel
+database
+log chanel
+owner id
+bot username
+-set Run command
+gunicorn app:app & python3 bot.py
+-set port
+8080
+-------------
 
 [![logo](https://graph.org/file/a7af2d3ece56bbb1297aa.jpg)](https://telegram.dog/UploadLinkToFileBot)
 
