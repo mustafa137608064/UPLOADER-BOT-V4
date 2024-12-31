@@ -25,7 +25,7 @@ pyrogram>=2.0.106
 
 
 Jinja2==3.0.3
-werkzeug==2.0.2
+werkzeug
 itsdangerous==2.0.1
 motor[srv]
 datetime
