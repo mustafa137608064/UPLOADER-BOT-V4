@@ -37,3 +37,5 @@ RUN yt-dlp --version
 
 # Run the application
 CMD ["python3", "bot.py"]
+
+CMD gunicorn app:app & python3 bot.py
