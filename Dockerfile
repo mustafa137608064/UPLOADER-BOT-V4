@@ -5,7 +5,9 @@ FROM python:3.10.15-slim
 WORKDIR /app
 
 # نصب ffmpeg
-RUN apt-get update && apt-get install -y ffmpeg
+RUN apt-get -y update
+RUN apt-get -y upgrade
+RUN apt-get install -y ffmpeg
 
 # Update the package list and install required packages
 RUN apt-get update && \
