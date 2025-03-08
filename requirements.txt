@@ -24,3 +24,16 @@ lk21
 pytube
 flask
 gunicorn==20.1.0
+
+
+
+beautifulsoup4>=4.12.3
+motor
+pyrogram>=2.0.106
+Jinja2
+werkzeug
+itsdangerous
+motor[srv]
+datetime
+pytz
+bs4
